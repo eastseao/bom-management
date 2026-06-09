@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+dist/
+*.spec
+version_info.txt
+打包脚本.bat
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data (数据库文件不提交)
+BOM管理系统数据/
+*.db
+*.sqlite3
